@@ -20,7 +20,7 @@
 
  /* Header */
  header {
-     background-color: #F9F9A6;
+     background-color: #ffffff;
      padding: 0 1rem;
      position: fixed;
      z-index: 99;
@@ -31,12 +31,11 @@
  header img {
      max-height: 100%;
      max-width: 80%;
-     padding-top: 10px;
  }
 
  header a {
      text-decoration: none;
-     color: inherit;
+     color: inherit
  }
 
  #menu {
@@ -53,9 +52,14 @@
      border-bottom: 1px solid #3a3a3a;
  }
 
- /*Navbar styles with dropdown toggle*/
+ /*Navbar styles with drodown toggle*/
  nav {
      position: absolute;
+     background-color: #ffffff;
+     width: 100%;
+     left: 0;
+     padding: 0 1rem;
+     box-shadow: 0 2px 2px #3a3a3a;
  }
 
  /* Main content */
