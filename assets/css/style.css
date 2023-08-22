@@ -21,7 +21,11 @@ body {
 /* Header */
 header {
     background-color: aqua;
-    font-family: 'Arsenal',sans-serif;
+    
+}
+
+h1 {
+font-family: 'Arsenal', sans-serif;
 }
 
 /* Main content */
