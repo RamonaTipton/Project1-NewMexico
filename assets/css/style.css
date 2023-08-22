@@ -1,69 +1,71 @@
  /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital@0;1&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital@0;1&display=swap');
 
-/*Asterisk wildcard selector to override default styles added by the browser */
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+ /*Asterisk wildcard selector to override default styles added by the browser */
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
 
-/* General styles */
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    /*generic project styles*/
-    color: #3a3a3a;
-    font-family: 'Roboto',sans-serif;
-}
+ /* General styles */
+ body {
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     /*generic project styles*/
+     color: #3a3a3a;
+     font-family: 'Roboto', sans-serif;
+ }
 
-/* Header */
-header {
-    background-color: #ffffff;
-    padding: 0 1rem;
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;   
-}
+ /* Header */
+ header {
+     background-color: #F9F9A6;
+     padding: 0 1rem;
+     position: fixed;
+     z-index: 99;
+     width: 100%;
+     box-shadow: 0 2px 2px #3a3a3a;
+ }
 
-header img {
-    max-height: 100%;
-    max-width: 80%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+ header img {
+     max-height: 100%;
+     max-width: 80%;
+     padding-top: 10px;
+ }
 
-header a {
-    text-decoration: none;
-    color: inherit
-}
+ header a {
+     text-decoration: none;
+     color: inherit;
+ }
 
-#menu {
-    font-size: 100%;
-    letter-spacing: 4px;
-    list-style-type: none;
-}
+ #menu {
+     font-size: 100%;
+     letter-spacing: 4px;
+     list-style-type: none;
+ }
 
-#menu > li {
-    margin-bottom: 1em;
-}
+ #menu>li {
+     margin-bottom: 1em;
+ }
 
-.active {
-   border-bottom: 1px solid #3a3a3a; 
-}
+ .active {
+     border-bottom: 1px solid #3a3a3a;
+ }
 
-/*Navbar styles with dropdown toggle/*
-/* Main content */
-main {
-    background-color: blueviolet;
-    /* Make main element take up any surplus space to push footer down */
-    flex: 1 0 auto;
-}
+ /*Navbar styles with dropdown toggle*/
+ nav {
+     position: absolute;
+ }
 
-/* Footer */
-footer {
-    background-color: darkorange;
-}
+ /* Main content */
+ main {
+     background-color: blueviolet;
+     /* Make main element take up any surplus space to push footer down */
+     flex: 1 0 auto;
+ }
+
+ /* Footer */
+ footer {
+     background-color: darkorange;
+ }
