@@ -26,11 +26,15 @@
      z-index: 99;
      width: 100%;
      box-shadow: 0 2px 2px #3a3a3a;
+     display: flex;
+     justify-content: space-between;
+     align-items: baseline;
  }
 
  header img {
      max-height: 100%;
-     max-width: 80%;
+     max-width: 90%;
+     padding-top: 10px;
  }
 
  header a {
@@ -60,6 +64,21 @@
      left: 0;
      padding: 0 1rem;
      box-shadow: 0 2px 2px #3a3a3a;
+     display: none;
+     top: 100%;
+ }
+
+ /* Nav toggle */
+ #nav-toggle:checked~nav {
+     display: block;
+ }
+
+ #nav-toggle {
+     display: none;
+ }
+
+ .nav-toggle-label {
+     font-size: 2rem;
  }
 
  /* Main content */
