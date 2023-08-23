@@ -99,6 +99,7 @@
      header img {
          max-height: 100%;
          max-width: 100%;
+         line-height: 75px;
      }
 
      nav {
@@ -111,6 +112,7 @@
 
      #menu {
          display: flex;
+         font-size: 90%;
      }
 
      #menu>li {
@@ -119,6 +121,12 @@
 
      .nav-toggle-label {
          display: none;
+     }
+
+     /* Main content */
+     main {
+         /* Make main element take up any surplus space to push footer down */
+         margin-top: 94px;
      }
 
  }
