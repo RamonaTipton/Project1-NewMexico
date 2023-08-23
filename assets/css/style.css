@@ -84,10 +84,16 @@
 
  /* Main content */
  main {
-     background-color: blueviolet;
      /* Make main element take up any surplus space to push footer down */
      flex: 1 0 auto;
      margin-top: 76px;
+ }
+
+ /* Hero section */
+ #hero {
+     height: 600px;
+     width: 100%;
+     background: url("../images/hero-image.jpg") no-repeat center center/cover;
  }
 
  /* Footer */
@@ -147,4 +153,13 @@
      #menu a:hover {
          border-bottom: 1px solid #77C0DB;
      }
+ }
+
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+     header img {
+         max-height: 70%;
+         max-width: 70%;
+     }
+
  }
