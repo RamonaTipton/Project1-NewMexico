@@ -94,6 +94,24 @@
      height: 600px;
      width: 100%;
      background: url("../images/hero-image.jpg") no-repeat center center/cover;
+     position: relative;
+ }
+
+ #cover-text>h2,
+ #cover-text>h3 {
+     font-family: 'Arsenal', sans-sarif;
+     color: #ffffff;
+ }
+
+ #cover-text {
+     background-color: rgba(58, 58, 58, 0.50);
+     font-size: 100%;
+     position: absolute;
+     bottom: 250px;
+     width: 60%;
+     min-height: 100px;
+     padding-top: 40px;
+     padding-left: 10px;
  }
 
  /* Footer */
@@ -146,6 +164,12 @@
          margin-top: 94px;
      }
 
+     /* Hero */
+     #cover-text {
+         width: 40%;
+         font-size: 150%;
+     }
+
  }
 
  /* Large devices (laptops and desktops, 992px and up) */
@@ -160,6 +184,13 @@
      header img {
          max-height: 70%;
          max-width: 70%;
+     }
+
+     /* Hero */
+     #cover-text {
+         width: 30%;
+         font-size: 200%;
+         bottom: 100px;
      }
 
  }
