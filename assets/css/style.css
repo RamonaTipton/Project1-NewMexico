@@ -114,6 +114,12 @@
      padding-left: 10px;
  }
 
+ #intro-text {
+     font-size: 85%;
+     padding: 15px 15px;
+     text-align: justify;
+ }
+
  /* Footer */
  #social-networks {
      text-align: center;
