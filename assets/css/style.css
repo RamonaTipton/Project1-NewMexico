@@ -237,9 +237,16 @@
  #timeline {
      background-color: #344A53;
      position: relative;
-     max-width: 1200px;
+     max-width: 100%;
      margin: 0 auto;
      font-size: 80%;
+     padding-top: 20px;
+     padding-bottom: 20px;
+ }
+
+ .container h2 {
+     text-align: center;
+     color: #77C0DB;
  }
 
  #timeline::after {
@@ -295,7 +302,8 @@
      border-color: transparent transparent transparent white;
  }
 
- .left::after,.right::after {
+ .left::after,
+ .right::after {
      left: 15px;
  }
 
@@ -312,15 +320,12 @@
      border-color: transparent white transparent transparent;
  }
 
- .right::after {
-     left: -16px;
- }
-
  .timeline-content {
-     padding: 20px 30px;
+     padding: 5px 10px;
      background-color: white;
      position: relative;
      border-radius: 6px;
+     margin: 20px 0;
  }
 
  .container::before {
