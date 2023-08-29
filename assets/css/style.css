@@ -16,7 +16,6 @@
      /*generic project styles*/
      color: #3a3a3a;
      font-family: 'Fira Sans', sans-serif;
-     font-weight: 550;
  }
 
  /* Header */
@@ -232,6 +231,108 @@
      font-family: 'Arsenal', sans-sarif;
      background-color: rgba(58, 58, 58, 0.40);
  }
+
+ /* History Timeline */
+
+ #timeline {
+     background-color: #344A53;
+     position: relative;
+     max-width: 1200px;
+     margin: 0 auto;
+     font-size: 80%;
+ }
+
+ #timeline::after {
+     content: '';
+     position: absolute;
+     width: 6px;
+     background-color: white;
+     top: 0;
+     bottom: 0;
+     left: 31px;
+     margin-left: -3px;
+ }
+
+ .container {
+     position: relative;
+     background-color: inherit;
+     width: 100%;
+     padding-left: 70px;
+     padding-right: 25px;
+ }
+
+ .container::after {
+     content: '';
+     position: absolute;
+     width: 25px;
+     height: 25px;
+     right: -17px;
+     background-color: white;
+     border: 4px solid #77C0DB;
+     top: 15px;
+     border-radius: 50%;
+     z-index: 1;
+ }
+
+ .left {
+     left: 0;
+ }
+
+ .right {
+     left: 0%;
+ }
+
+ .left::before {
+     content: " ";
+     height: 0;
+     position: absolute;
+     top: 22px;
+     width: 0;
+     z-index: 1;
+     right: 30px;
+     border: medium solid white;
+     border-width: 10px 0 10px 10px;
+     border-color: transparent transparent transparent white;
+ }
+
+ .left::after,.right::after {
+     left: 15px;
+ }
+
+ .right::before {
+     content: " ";
+     height: 0;
+     position: absolute;
+     top: 22px;
+     width: 0;
+     z-index: 1;
+     left: 30px;
+     border: medium solid white;
+     border-width: 10px 10px 10px 0;
+     border-color: transparent white transparent transparent;
+ }
+
+ .right::after {
+     left: -16px;
+ }
+
+ .timeline-content {
+     padding: 20px 30px;
+     background-color: white;
+     position: relative;
+     border-radius: 6px;
+ }
+
+ .container::before {
+     left: 60px;
+     border: medium solid white;
+     border-width: 10px 10px 10px 0;
+     border-color: transparent white transparent transparent;
+ }
+
+
+
+
 
  /* Media query: tablets and larger (768px and up) */
  @media screen and (min-width: 768px) {
