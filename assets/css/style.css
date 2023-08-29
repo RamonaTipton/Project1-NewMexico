@@ -214,6 +214,29 @@
      color: #77C0DB;
  }
 
+ /* History Page */
+
+ #history-header {
+     background: url("../images/nm-history.jpg") no-repeat center center/cover;
+     height: 200px;
+     width: 100%;
+     position: relative;
+ }
+
+ #history-header div {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 200px;
+     color: #fafafa;
+     font-family: 'Arsenal', sans-sarif;
+     background-color: rgba(58, 58, 58, 0.40);
+ }
+
+ #history-header-text {
+     background-color: rgba(119, 192, 219, .7);
+ }
+
  /* Media query: tablets and larger (768px and up) */
  @media screen and (min-width: 768px) {
      header img {
