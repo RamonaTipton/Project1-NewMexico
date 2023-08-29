@@ -243,6 +243,7 @@
      font-size: 80%;
      padding-top: 20px;
      padding-bottom: 20px;
+     text-align: center;
  }
 
  #timeline h2 {
@@ -426,7 +427,7 @@
          position: relative;
          max-width: 1200px;
          margin: 0 auto;
-         font-size: 125%;
+         font-size: 90%;
      }
 
      #timeline::after {
