@@ -234,21 +234,23 @@
 
  /* History Timeline */
 
+ /* The actual timeline (the vertical ruler) */
  #timeline {
-     background-color: #344A53;
      position: relative;
      max-width: 100%;
      margin: 0 auto;
+     background-color: #344A53;
      font-size: 80%;
      padding-top: 20px;
      padding-bottom: 20px;
  }
 
- .container h2 {
-     text-align: center;
+ #timeline h2 {
      color: #77C0DB;
+     text-align: center;
  }
 
+ /* The actual timeline (the vertical ruler) */
  #timeline::after {
      content: '';
      position: absolute;
@@ -260,14 +262,17 @@
      margin-left: -3px;
  }
 
+ /* Container around content */
  .container {
+     padding-left: 70px;
+     padding-right: 25px;
      position: relative;
      background-color: inherit;
      width: 100%;
-     padding-left: 70px;
-     padding-right: 25px;
+     margin: 20px auto;
  }
 
+ /* The circles on the timeline */
  .container::after {
      content: '';
      position: absolute;
@@ -281,63 +286,43 @@
      z-index: 1;
  }
 
- .left {
-     left: 0;
- }
-
- .right {
-     left: 0%;
- }
-
- .left::before {
-     content: " ";
-     height: 0;
-     position: absolute;
-     top: 22px;
-     width: 0;
-     z-index: 1;
-     right: 30px;
-     border: medium solid white;
-     border-width: 10px 0 10px 10px;
-     border-color: transparent transparent transparent white;
- }
-
- .left::after,
- .right::after {
-     left: 15px;
- }
-
- .right::before {
-     content: " ";
-     height: 0;
-     position: absolute;
-     top: 22px;
-     width: 0;
-     z-index: 1;
-     left: 30px;
-     border: medium solid white;
-     border-width: 10px 10px 10px 0;
-     border-color: transparent white transparent transparent;
- }
-
- .timeline-content {
-     padding: 5px 10px;
-     background-color: white;
-     position: relative;
-     border-radius: 6px;
-     margin: 20px 0;
- }
-
+ /* Make sure that all arrows are pointing leftwards */
  .container::before {
+     content: " ";
+     height: 0;
+     position: absolute;
+     top: 22px;
+     width: 0;
+     z-index: 1;
      left: 60px;
      border: medium solid white;
      border-width: 10px 10px 10px 0;
      border-color: transparent white transparent transparent;
  }
 
+ /* Place the container to the left */
+ .left {
+     left: 0;
+ }
 
+ /* Make all right containers behave like the left ones */
+ .right {
+     left: 0%;
+ }
 
+ /* Make sure all circles are at the same spot */
+ .left::after,
+ .right::after {
+     left: 15px;
+ }
 
+ /* The actual content */
+ .timeline-content {
+     padding: 5px 10px;
+     background-color: white;
+     position: relative;
+     border-radius: 6px;
+ }
 
  /* Media query: tablets and larger (768px and up) */
  @media screen and (min-width: 768px) {
@@ -422,8 +407,8 @@
 
      .form-name {
          width: 50%;
-
      }
+
  }
 
  /* Large devices (laptops and desktops, 992px and up) */
