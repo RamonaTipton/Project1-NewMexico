@@ -168,16 +168,14 @@
  /* Contact Form */
 
  #contact {
-     background-image: url("../images/nm-sunset.jpeg");
-     background-size: cover;
-     background-position: 75%;
-     padding: 10px 10px 0 10px;
+     background: url("../images/nm-sunset.jpeg") no-repeat center center/cover;
  }
 
  #contact-form {
      color: #fafafa;
-     background-color: rgba(58, 58, 58, 0.50);
-     padding: 20px;
+     background-color: rgba(58, 58, 58, 0.60);
+     font-size: 90%;
+     padding: 10px;
  }
 
  #contact-form>h2 {
@@ -206,7 +204,7 @@
      margin-top: 10px;
      border-radius: 4px;
      padding: 5px 10px;
-     font-size: 80%;
+     font-size: 100%;
      background-color: #77C0DB;
      color: #fafafa;
  }
@@ -424,9 +422,11 @@
      }
 
      #contact-form {
-         max-width: 400px;
+         max-width: 600px;
          align-items: center;
          margin: 0 auto;
+         padding: 40px;
+         font-size: 115%;
      }
 
      .form-name {
@@ -437,7 +437,7 @@
 
      #timeline {
          position: relative;
-         max-width: 1200px;
+         max-width: 100%;
          margin: 0 auto;
          font-size: 90%;
      }
