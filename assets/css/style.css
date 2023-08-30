@@ -126,20 +126,33 @@
      display: flex;
      flex-direction: column;
      align-items: stretch;
-     background-color: rgba(119, 192, 219, .7);
      padding-top: 10px;
      padding-bottom: 10px;
-     font-size: 85%;
-     text-align: justify;
+     font-size: 90%;
+     text-align: center;
+     justify-content: space-between;
+ }
+
+ #flex-container-discover div {
+     border-radius: 10px;
+     background-color: rgba(119, 192, 219, 0.8);
+     padding-top: 10px;
+     padding-bottom: 10px;
+     margin: 10px 5px 0;
  }
 
  #flex-container-discover img {
      display: block;
      width: 150px;
      height: 150px;
-     border-radius: 50%;
      margin-right: auto;
      margin-left: auto;
+     border-radius: 50%;
+     border: 4px solid #fafafa;
+ }
+
+ #flex-container-discover h3 {
+     color: #fafafa;
  }
 
  #flex-container-discover p {
@@ -392,11 +405,11 @@
          font-size: 100%;
          padding: 20px 10px;
          font-weight: 500;
-         justify-content: space-between;
+         justify-content: space-evenly;
      }
 
      #flex-container-discover div {
-         flex: 0 33.33%;
+         flex: 0 29%;
      }
 
      #flex-container-discover img {
