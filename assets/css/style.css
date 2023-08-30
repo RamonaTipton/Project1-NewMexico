@@ -327,6 +327,35 @@
      letter-spacing: 4px;
  }
 
+ /* Visiting Info Boxes */
+
+ .place-wrapper {
+     background-color: #77C0DB;
+     padding: 15px;
+ }
+
+ #place {
+     max-width: 100%;
+     padding: 20px;
+     border-radius: 15px;
+     border: 4px solid #344A53;
+     margin-bottom: 20px;
+     text-align: center;
+     font-size: 80%;
+     background-color: #fafafa;
+ }
+
+ #place img {
+     max-width: 100%;
+ }
+
+ #place h2,
+ #place h3 {
+     color: #77C0DB;
+     font-weight: 600;
+ }
+
+
  /* Media query: mobile phones and screen (600px and smaller) */
  @media only screen and (max-width: 600px) {
 
