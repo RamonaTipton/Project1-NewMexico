@@ -14,7 +14,7 @@
      display: flex;
      flex-direction: column;
      /*generic project styles*/
-     color: #3a3a3a;
+     color: #000000;
      font-family: 'Fira Sans', sans-serif;
  }
 
@@ -136,7 +136,7 @@
  #flex-container-discover div {
      border-radius: 10px;
      background-color: rgba(119, 192, 219, 0.8);
-     padding-top: 10px;
+     padding-top: 20px;
      padding-bottom: 10px;
      margin: 10px 5px 0;
  }
@@ -402,19 +402,18 @@
          display: flex;
          flex-direction: row;
          text-align: center;
-         font-size: 100%;
          padding: 20px 10px;
          font-weight: 500;
          justify-content: space-evenly;
      }
 
      #flex-container-discover div {
-         flex: 0 29%;
+         flex: 0 27%;
      }
 
      #flex-container-discover img {
-         width: 100px;
-         height: 100px;
+         width: 150px;
+         height: 150px;
      }
 
      /* Contact */
