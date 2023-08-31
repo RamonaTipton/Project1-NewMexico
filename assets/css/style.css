@@ -567,6 +567,7 @@
          flex-wrap: wrap;
          justify-content: space-evenly;
          font-size: 120%;
+         padding: 10px;
      }
 
      #place {
