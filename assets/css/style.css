@@ -372,7 +372,6 @@
  @media only screen and (max-width: 767px) {
 
      /* Timeline History page */
-     n
 
      /* Container around content */
      .container {
@@ -491,9 +490,9 @@
          font-size: 115%;
      }
 
-     .form-name {
+     /* .form-name {
          width: 50%;
-     }
+     } */
 
      /* Timeline*/
 
