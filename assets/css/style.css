@@ -543,6 +543,18 @@
 
      }
 
+     /* Visiting Page */
+     .place-wrapper {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-evenly;
+         font-size: 120%;
+     }
+
+     #place {
+         width: 45%;
+     }
+
  }
 
 
