@@ -331,7 +331,16 @@
 
  .place-wrapper {
      background-color: #77C0DB;
-     padding: 15px;
+     padding: 10px;
+     text-align: center;
+     font-size: 100%;
+ }
+
+ .intro {
+     text-align: center;
+     font-size: 100%;
+     color: #fafafa;
+     padding: 20px;
  }
 
  #place {
