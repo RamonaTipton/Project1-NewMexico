@@ -5,3 +5,7 @@ I have lived in the UK since 2007 and, until I left I never really appreciated m
 This site represents my passion for New Mexico but is also my showcase for those who want to learn more about it.  It includes both the history and places that make New Mexico unlike any on earth.  This site has been designed to inform and inspire.
 
 [Welcome to New Mexico!](https://ramonatipton.github.io/Project1-NewMexico/index.html)
+
+![mockup](https://ibb.co/vzxhkX1)
+
+
