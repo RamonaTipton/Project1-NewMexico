@@ -109,3 +109,32 @@ One thing I need to figure out is the formatting in Codeanywhere as the info on 
 I did not have any bugs that I found in my testing. The only issue is the HTMl formattng that I mentioned above. This does not seem to affect the site.
 
 ## Deployment
+
+1.  Log into GitHub;
+2.  Select "Pages" in the **Code and Automation** section on the left sidebar
+3.  Set source to _Deploy from branch_
+4.  Select _Main branch_
+5.  Set folder to _/(root)_
+6.  Click _Save_
+7.  Deployed pages will appear on the right sidebar under **Deployments**
+8.  Click URL to view deployed site
+
+Live link can be found here: <https://ramonatipton.github.io/Project1-NewMexico/>
+
+## Credits
+
+The following are the sites and resources used to create this site:
+
+- ### Google Fonts - used to obtain fonts for Header and body
+- ### Tiny.png - photo optimisation site to compress photos
+- ### Adobe AI - used to create logo
+- ### Adobe Photoshop - used to format photos for optimisation
+- ### Adobe Stock Photos - Used for photos on on the site
+- ### Unsplash - Used for photos on the site
+- ### W3 Schools - used for guides in how to create a timeline and also for css styling guidance, and media queries
+- ### Wikipedia - used for history and places to collate facts in order to provide information. Please note that all copy is written by me and sources used for information only. Text has not been copied for the purpose of this site.
+- ### favicon.io - Favicon generator
+- ### CSS-Tricks - Flexbox guide
+- ### Code Institute - Love Running tutorial to assist in setting up site structure. and basic CSS styles
+- ### Trip Advisor - used for things to do section on visting page
+- ### Font Awesome - used for hamburger icon for mobiles.
