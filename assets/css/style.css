@@ -410,8 +410,9 @@
  @media screen and (min-width: 768px) {
      header img {
          max-height: 100%;
-         max-width: 250px;
+         max-width: 300px;
          line-height: 75px;
+         padding-left: 30px;
      }
 
      nav {
@@ -581,6 +582,12 @@
 
  /* Large devices (laptops and desktops, 992px and up) */
  @media screen and (min-width: 992px) {
+
+     header img {
+         padding-left: 15%;
+         max-width: 350px;
+     }
+
      #menu a:hover {
          border-bottom: 1px solid #77C0DB;
      }
@@ -630,10 +637,6 @@
 
  /* Extra large devices (large laptops and desktops, 1200px and up) */
  @media only screen and (min-width: 1200px) {
-     header img {
-         max-height: 70%;
-         max-width: 300px;
-     }
 
      /* Hero */
      #cover-text {
