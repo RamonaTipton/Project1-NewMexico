@@ -19,6 +19,7 @@ HTML, CSS
 The aim of this site is for users of all ages to get information about New Mexico and including places, sites and events in a clear, concise and structured format which is easy to navigate on all screen sizes and is accessible.
 
 ### Site Features
+While I did not wireframe this site due to time constraints, I tried to put in extra effort to research best practices on favicons, photo optimisation, selecting fonts and ensuring much of this was in place before beggining to code.  I have a lot to learn on photo optimisation and color palattes but will be better prepared going forward.
 
 - #### Navigation Bar
 
@@ -56,3 +57,33 @@ The aim of this site is for users of all ages to get information about New Mexic
   - Photos have been chosen to draw the user in and have been optimised to allow for good resolution at all screen sizes.
 
   - The use of flexbox allows for responsive flow for each place box on all screen sizes.
+
+  ##### Features not implemented
+
+  I wanted to add a roadtrips section to the visiting page but realised I had too much content. This would have been something used to showcase some of the best driving tours in New Mexico.
+
+- #### Contact Section
+
+  - Due to the type of contact form this is,this is an in-page section as opposed to a new page.
+
+  - Clicking the nav link will direct the user to the form at the bottom in all pages.
+  
+- #### Footer
+  - Basic footer to include social media links. As this is not a real site, these are only generic and link to the main social media sites.
+
+## Testing
+
+Testing was completed throughout this project and at every single new addition to ensure everything worked properly before moving on. As a person new to development, the testing undertaken showed me where my HTMl wasn't formatted correctly and, in some instances "double-wrapped" which meant I had to re-do the code to correct, in some cases rewriting pages of code to ensure  my wrappers were correct.
+
+I am very happy with the look of this site on different browsers and screen sizes. I have refined my styling throughout and taken on board feedback from my mentor ways to improve the look of the site.
+
+One thing I need to figure out is the formatting in Codeanywhere as the info on validation for html returns 'Trailing slash on void elements' on my code which I have tried to manually fix and have also tried external formatters but reverts when put into Codeanywhere.
+
+  ### Validator Testing
+  - #### CSS
+    Using jigsaw W3C validation, no errors found
+  - #### HTML
+- 
+    - 
+
+    
