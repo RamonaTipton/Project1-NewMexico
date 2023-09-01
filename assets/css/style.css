@@ -643,15 +643,23 @@
 
      /* Hero */
      #cover-text {
-         width: 30%;
+         width: 40%;
          font-size: 200%;
-         bottom: 100px;
+         bottom: 200px;
      }
 
  }
 
  /* Extra large devices (large laptops and desktops, 1500px and up) */
  @media only screen and (min-width: 1400px) {
+
+     /* Hero */
+     #cover-text {
+         width: 25%;
+         /* font-size: 200%; */
+         bottom: 150px;
+     }
+
      #place-image {
          height: 250px;
      }
