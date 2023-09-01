@@ -333,7 +333,7 @@
  /* Visiting Info Boxes */
 
  .place-wrapper {
-     background-color: #77C0DB;
+     background-color: rgba(119, 192, 219, 0.4);
      padding: 20px;
      text-align: center;
      font-size: 100%;
@@ -342,8 +342,7 @@
  .intro {
      text-align: center;
      font-size: 100%;
-     color: #fafafa;
-     padding: 20px;
+     padding: 30px;
  }
 
  #place {
@@ -561,6 +560,10 @@
          padding: 10px;
      }
 
+     .intro {
+         flex: 0 100%;
+     }
+
      #place {
          width: 45%;
      }
@@ -606,6 +609,11 @@
          font-size: 200%;
      }
 
+     .place-wrapper {
+         padding: 40px;
+     }
+
+
      #place {
          width: 30%;
      }
@@ -636,6 +644,22 @@
          width: 30%;
          font-size: 200%;
          bottom: 100px;
+     }
+
+ }
+
+ /* Extra large devices (large laptops and desktops, 1500px and up) */
+ @media only screen and (min-width: 1400px) {
+     #place-image {
+         height: 250px;
+     }
+
+ }
+
+ /* Extra large devices (large laptops and desktops, 1500px and up) */
+ @media only screen and (min-width: 1700px) {
+     #place-image {
+         height: 315px;
      }
 
  }
