@@ -483,16 +483,12 @@
      }
 
      #contact-form {
-         max-width: 600px;
+         max-width: 400px;
          align-items: center;
-         margin: 0 auto;
          padding: 40px;
          font-size: 115%;
+         margin: 0 auto;
      }
-
-     /* .form-name {
-         width: 50%;
-     } */
 
      /* Timeline*/
 
@@ -605,6 +601,19 @@
 
      #place {
          width: 30%;
+     }
+
+     #contact {
+         background-position: right;
+         /* position: relative; */
+     }
+
+     #contact-form {
+         max-width: 50%;
+         /* align-items: center; */
+         /* margin: 0 auto; */
+         /* padding: 40px;
+         font-size: 115%; */
      }
  }
 
